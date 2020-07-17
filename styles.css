@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 5% !important;
+    width: 30% !important;
+}
+.navSection{
+    position: ;
+    box-shadow: black;
+}
+.samesec{
+    height: auto;
+}
+.sec2,.sec4{
+    background-color: #dee8f8;
+}
+.sec6{
+    background-color: #f5f6f8;
+}
+.sec1{
+    height: 80vh;
+}
+.howItWorks, .testimonials{
+    text-align: center;
+}
+.hiw-row1, .hiw-row2{
+    justify-content: center;
+}
+.btn-row{
+    display: flex;
+    justify-content: center;
+}
+.placesAvailable > img{
+    height: 40px;
+    filter: grayscale(1);
+}
+.cdimg{
+    padding-left: 30%;
+    padding-top: 20px;
+    height: 32%;
+    width: 70%;
+}
+.testimonialsRow, .maincard{
+    justify-content: center; 
+}
+.testimonialcard1,.testimonialcard2, .testimonialcard3{
+    margin: 20px;
+}
+.lowercard{
+    margin: 0;
+    width: 20rem;
+    border: black 2px;
+}
+.lowerimage{
+    margin: 0;
+    align-items: center;
+    height: 10%;
+    width: 20%;
+}
+.mdcard{
+    margin: 25px;
+}
+.cardImage{
+    display: flex;
+    font-weight: bold;
+}
+.lastsec{
+    background-color: #00255e;
+}
+.twobuttons > img{
+    height: 45px;
+}
+ul > li{
+    list-style: none;
+}
+.profileimage{
+    height: 100%;
+    width: 15%;
+    border-radius: 50%;
+}
+.endsection{
+    background-color: #f5f6f8;
+}
+footer{
+    text-align: center;
+}
+.social-links{
+    margin-left: 20%;
+}
+.twitter, .facebook, .linkedin,.instagram{
+    padding-left: 10px;
+    width: 25px;
+}
+@media(max-width: 780px){
+    body{
+        margin: 0;
+        margin-right: 0;
+    }
+    .QRcode{
+        display: none;
+    }
+    .sec1{
+        height: auto;
+    }
+
+    .Page{
+        width: 100vw;
+        padding: 0;
+        margin: 0 !important;
+    }
+    .container{
+        padding: 0;
+        margin: 0 !important; 
+        align-items: center;
+    }
+    .row{
+        align-items: center;
+        padding-right: 0;
+        margin: 0;
+    }
+    .btn-container1{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .twobuttons{
+        align-items: center;
+    }
+    .welcomeText, .smartWallet, .pushPayments, .autoBudgetting, .discountedDeals{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .c-smartwallet,.c-autobudgetting, .c-discounteddeals, .c-paymentspush{
+        display: flex;
+        justify-content: center;
+    }
+    .welcomeText > h2{
+        font-weight: bold;
+    }
+    .alsoAvailable{
+        text-align: center;
+        justify-content: center;
+    }
+    .btn-row{
+        margin: 0;
+    }
+    .pushPaymentsRow, .discountedDealsRow{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .pushPayments, .discountedDeals{
+        order: 1;
+    }
+    .pushPaymentsphoto, .discountedDealsphoto{
+        order: 2;
+        /* padding-left: 28px; */
+
+    }
+    .merchantimage{
+        display: none;
+    }
+    .merchanttext{
+        text-align: center;
+    }
+    .hidebuttons{
+        display: none;
+    }
+    .testimonialsRow > div{
+        align-items: center;
+        padding: 0;
+    }
+    .endsection{
+        height: auto;
+        font-size: smaller;
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    }
+}
